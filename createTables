@@ -1,0 +1,33 @@
+CREATE TABLE "Groups" (
+	"Name"	TEXT,
+	"Debut Year"	INTEGER,
+	"No Of Members"	INTEGER,
+	"Generation"	INTEGER,
+	"Agency"	TEXT,
+	"Concept"	TEXT,
+	"Tier ranking"	INTEGER,
+	"Labelmate"	TEXT,
+	"Face Of The Group"	TEXT,
+	"Most Famous Song"	TEXT
+);
+
+CREATE TABLE "Shows" (
+	"Name"	TEXT,
+	"Network"	TEXT,
+	"Type"	TEXT,
+	"Day"	TEXT,
+	"Airtime"	INTEGER, 
+  "Host"	TEXT);
+  
+  CREATE TABLE "performs at" (
+	"Group"	TEXT,
+	"Show"	TEXT
+);
+
+CREATE TABLE "promotes on" (
+	"Group"	TEXT,
+	"Show"	TEXT,
+	"TimeFrom"	INTEGER,
+	"TimeTo"	INTEGER
+);
+
