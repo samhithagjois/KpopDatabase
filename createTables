@@ -19,12 +19,12 @@ CREATE TABLE "Shows" (
 	"Airtime"	INTEGER, 
   "Host"	TEXT);
   
-  CREATE TABLE "performs at" (
+  CREATE TABLE "performsAt" (
 	"Group"	TEXT,
 	"Show"	TEXT
 );
 
-CREATE TABLE "promotes on" (
+CREATE TABLE "promotesOn" (
 	"Group"	TEXT,
 	"Show"	TEXT,
 	"TimeFrom"	INTEGER,
